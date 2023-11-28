@@ -1,0 +1,28 @@
+package anonymous;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Worker {
+	public void start() {
+		System.out.println("시작합니다!");
+	}
+}
+
+class fucker {
+	public void method1(NormalParent np) {}
+	
+	public void method2() {
+		method1(new NormalParent2(){
+			
+			
+		});
+		System.out.println("테스트를 합니다!");
+	}
+}

@@ -1,0 +1,25 @@
+package java_util_function;
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 자바에서 제공하는 함수형 인터페이스
+		 * java.util.function 패키지
+		 * 
+		 * 				파라미터	리턴
+		 * Consumer 계열	O		 X
+		 * Supplier	계열	X		 O
+		 * Function 계열	O		 O
+		 * Operator	계열	O		 O
+		 * Predicate계열	O		 boolean
+		 * 
+		 * 5. Predicate 계열
+		 * - Function 계열과 유사하게 파라미터와 리턴을 갖는다
+		 * - 차이점은 Operator 계열은 매개변수 타입이 곧 리턴타입이 된다
+		 * - 매개변수를 전달받아 "어떠한 연산" 후 같은 타입을 리턴할 때 사용
+		 */
+	}
+
+}

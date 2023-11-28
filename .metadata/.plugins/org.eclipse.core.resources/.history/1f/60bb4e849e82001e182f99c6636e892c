@@ -1,0 +1,14 @@
+package anonymous;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 익명 객체의 로컬 변수 사용
+		 * - 메서드의 매개변수나 로컬변수를 익명 객체 내부에서 사용할 때 제한이 있음
+		 * 
+		 */
+	}
+
+}

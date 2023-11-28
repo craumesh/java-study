@@ -1,0 +1,17 @@
+package anonymous;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+// 버튼의 클릭 이벤트 처리
+// Button 클래스 정의
+class Button {
+	static interface OnClickListener { // 중첩 인터페이스 선언
+		void onClick();
+	}
+}

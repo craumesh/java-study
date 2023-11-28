@@ -1,0 +1,23 @@
+package java_util_function;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 자바에서 제공하는 함수형 인터페이스
+		 * java.util.function 패키지
+		 * 
+		 * 				파라미터	리턴
+		 * Consumer 계열	O		 X
+		 * Supplier	계열	X		 O
+		 * Function 계열	O		 O
+		 * Operator	계열	O		 O
+		 * Predicate계열	O		 boolean
+		 * 
+		 * 3. Function 계열
+		 * - 파라미터 리턴 모두 존재
+		 */
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;nested_class.Button.OnClickListener.click()&apos; to &apos;onClick&apos;&#x0D;&#x0A;- Original project: &apos;JAVA1108&apos;&#x0D;&#x0A;- Original element: &apos;nested_class.Button.OnClickListener.click()&apos;&#x0D;&#x0A;- Renamed element: &apos;nested_class.Button.OnClickListener.onClick()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;click&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;nested_class{Ex3.java[Button[OnClickListener~click" name="onClick" references="true" stamp="1699408469761" version="1.0"/>
+</session>

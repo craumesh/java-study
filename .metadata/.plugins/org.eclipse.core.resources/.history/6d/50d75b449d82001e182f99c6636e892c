@@ -1,0 +1,33 @@
+package anonymous;
+
+import anonymous.Button.OnClickListener;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class CheckBox {
+	static interface OnSelectListener {
+		void onSelect();
+	}
+	
+	OnSelectListener listener;
+	
+	public void setOnClickListener(OnSelectListener listener) {
+		// 매개 변수의 다형성
+		this.listener = listener;
+	}
+	// => 외부에서 구현 객체를 받아 필드에 대입
+	
+	public void touch() {
+		listener.onClick(); // 구현 객체의 onClick() 메서드 호출
+	}
+	
+	
+	
+}

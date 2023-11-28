@@ -1,0 +1,19 @@
+package thread;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 멀티쓰레딩(Multi Threading)
+		 * - 하나의 프로세스 내에서 두 가지 이상의 작업(Thread)을 동시에 처리
+		 * - 실제로 두 가지 이상의 작업을 동시에 수행하는 것은 아니며
+		 * 	CPU가 빠른 속도로 여러 작업을 번갈아가면서 수행하므로
+		 * 	동시에 처리되는 것 처럼 느껴짐 = Round Robin 방식이라고 함
+		 * - 멀티쓰레딩으로 처리되는 작업 순서는 고정이 아닌 변동이며
+		 * 	항상 실행 결과는 달라질 수 있다
+		 * 	= 운영체제 스케쥴링에 따라 처리되는 순서 및 횟수가 달라지기 때문
+		 */
+	}
+
+}
