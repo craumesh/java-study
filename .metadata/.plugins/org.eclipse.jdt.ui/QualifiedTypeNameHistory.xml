@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="exception.InvalidScoreException"/>
-    <fullyQualifiedTypeName name="nested_class.Outer"/>
-    <fullyQualifiedTypeName name="nested_class.Outer.Inner"/>
-    <fullyQualifiedTypeName name="nested_class.Outer.StaticInner"/>
-    <fullyQualifiedTypeName name="LocalInner"/>
-    <fullyQualifiedTypeName name="nested_class.Button.OnClickListener"/>
-    <fullyQualifiedTypeName name="nested_class.Button"/>
     <fullyQualifiedTypeName name="nested_class.CallListener"/>
     <fullyQualifiedTypeName name="nested_class.MessageListener"/>
     <fullyQualifiedTypeName name="anonymous.NormalChild2"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="java_util_function.PredicateTest"/>
     <fullyQualifiedTypeName name="java.util.function.IntPredicate"/>
+    <fullyQualifiedTypeName name="thread.NoThread"/>
+    <fullyQualifiedTypeName name="thread.MyThread"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="thread.MultiThread"/>
+    <fullyQualifiedTypeName name="thread.MultiT"/>
+    <fullyQualifiedTypeName name="thread.SingleT"/>
+    <fullyQualifiedTypeName name="thread.FileTransfer"/>
+    <fullyQualifiedTypeName name="thread.FileTransferMultiThread"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="thread.YourThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
 </qualifiedTypeNameHistroy>

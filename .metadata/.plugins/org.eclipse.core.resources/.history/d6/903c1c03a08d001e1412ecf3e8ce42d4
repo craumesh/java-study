@@ -1,0 +1,55 @@
+package thread;
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 쓰레드의 우선순위
+		 * - 스케쥴러가 어떤 쓰레드를 실행하는데 있어서 우선순위에 따라 실행
+		 * 	(단, 절대적인 수치는 아니며 확률적으로 실행 비중을 높여줌)
+		 * - Thread 객체의 getPriority() 메서드 : 우선순위 조회
+		 * 	Thread 객체의 setPriority() 메서드 : 우선순위 설정
+		 * 	=> 우선순위는 1 ~ 10까지 범위의 정수 사용
+		 * 	=> 자주 사용되는 우선순위값을 Thread 클래스의 상수로 제공
+		 * 		MAX_PRIORITY : 10(높음)
+		 * 		NORM_PRIORITY : 5(보통) => 기본값
+		 * 		MIN_PRIORITY : 1(낮음)
+		 */
+		
+		Thread t1 = new Thread(new Runnable() {			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				for(int i = 0; i<100; i++) {
+					System.out.println("*****");
+					try {
+						Thread.sleep(100);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+		
+		Thread t2 = new Thread(new Runnable() {			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				for(int i = 0; i<100; i++) {
+					System.out.println("*****");
+					try {
+						Thread.sleep(100);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+		
+		t1.start();
+	}
+
+}

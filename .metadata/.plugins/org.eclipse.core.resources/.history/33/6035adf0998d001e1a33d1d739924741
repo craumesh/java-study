@@ -1,0 +1,13 @@
+package thread;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 멀티쓰레딩 구현 코드의 변형
+		 * 
+		 */
+	}
+
+}

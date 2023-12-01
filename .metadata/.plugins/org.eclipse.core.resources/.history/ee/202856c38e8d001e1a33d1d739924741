@@ -1,0 +1,46 @@
+package thread;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SingleT st = new SingleT("혼자왔니?", 10);
+		MultiT mt = new MultiT("CPU 사줘요", 10);
+		
+	}
+
+}
+
+class SingleT {
+	String msg;
+	int count;
+	public SingleT(String msg, int count) {
+		super();
+		this.msg = msg;
+		this.count = count;
+	}
+	
+	public void run() {
+		for(int i = 0; i < count; i++) {
+			System.out.println(msg + " : " + count);
+		}
+	}
+}
+
+class MultiT extends MultiThread {
+	String msg;
+	int count;
+	public MultiT(String msg, int count) {
+		super();
+		this.msg = msg;
+		this.count = count;
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int i = 0; i < count; i++) {
+			System.out.println(msg + " : " + count);
+		}
+	}	
+}
