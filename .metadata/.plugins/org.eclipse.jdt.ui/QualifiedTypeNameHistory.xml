@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="nested_class.CallListener"/>
-    <fullyQualifiedTypeName name="nested_class.MessageListener"/>
-    <fullyQualifiedTypeName name="anonymous.NormalChild2"/>
-    <fullyQualifiedTypeName name="anonymous.NormalInterface"/>
-    <fullyQualifiedTypeName name="anonymous.NormalChild3"/>
-    <fullyQualifiedTypeName name="anonymous.NormalChild"/>
-    <fullyQualifiedTypeName name="anonymous.UseExtendsClass"/>
-    <fullyQualifiedTypeName name="anonymous.UseAnonyClass"/>
     <fullyQualifiedTypeName name="anonymous.UseAnonyClass2"/>
     <fullyQualifiedTypeName name="anonymous.UseAnonyClass3"/>
     <fullyQualifiedTypeName name="anonymous.NormalParent"/>
@@ -57,7 +49,15 @@
     <fullyQualifiedTypeName name="thread.FileTransferMultiThread"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="thread.YourThread"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="thread.Account"/>
+    <fullyQualifiedTypeName name="thread.WithdrawThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 </qualifiedTypeNameHistroy>
