@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="anonymous.UseAnonyClass2"/>
-    <fullyQualifiedTypeName name="anonymous.UseAnonyClass3"/>
-    <fullyQualifiedTypeName name="anonymous.NormalParent"/>
-    <fullyQualifiedTypeName name="anonymous.Worker"/>
-    <fullyQualifiedTypeName name="anonymous.UseAnonyInterfaceClass"/>
-    <fullyQualifiedTypeName name="anonymous.UseAnonyInterfaceClass2"/>
-    <fullyQualifiedTypeName name="anonymous.RemoteControl"/>
-    <fullyQualifiedTypeName name="anonymous.AnonyClass"/>
-    <fullyQualifiedTypeName name="anonymous.AnonymousClass"/>
-    <fullyQualifiedTypeName name="anonymous.Vehicle"/>
-    <fullyQualifiedTypeName name="anonymous.Button"/>
-    <fullyQualifiedTypeName name="anonymous.Button.OnClickListener"/>
-    <fullyQualifiedTypeName name="java.awt.Checkbox"/>
-    <fullyQualifiedTypeName name="anonymous.CheckBox.OnSelectListener"/>
-    <fullyQualifiedTypeName name="anonymous.CheckBox"/>
-    <fullyQualifiedTypeName name="anonymous.Calculatable"/>
-    <fullyQualifiedTypeName name="anonymous.AnonymousClass2"/>
     <fullyQualifiedTypeName name="lambda.MaxPrintNumber"/>
     <fullyQualifiedTypeName name="lambda.MyNumber"/>
     <fullyQualifiedTypeName name="lambda.MyNumberClass"/>
@@ -56,8 +39,25 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="io_2.Person"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 </qualifiedTypeNameHistroy>
